@@ -24,7 +24,7 @@ public class TemperatureConverterTest {
 
     @Test
     public void testCelsiusToFahrenheit() {
-        Assertions.assertEquals(32.0, TemperatureConverter.celsiusToFahrenheit(0), DELTA);
+        Assertions.assertEquals(32.0, TemperatureConverter.celsiusToFahrenheit(0.0), DELTA);
         Assertions.assertEquals(212.0, TemperatureConverter.celsiusToFahrenheit(100), DELTA);
     }
 

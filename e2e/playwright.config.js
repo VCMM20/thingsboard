@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright © 2016-2026 The Thingsboard Authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,7 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 const { defineConfig } = require('@playwright/test');
 
 const baseURL = process.env.TB_BASE_URL || 'http://localhost:8080';
